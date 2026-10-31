@@ -1,0 +1,62 @@
+*{
+  margin:0;
+  padding: 0;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  background-image:linear-gradient( to right, rgb(76,8,128), black);
+  color:white;
+  padding: 18px 0;
+}
+.logo{
+  font-size:22px;
+  font-weight:bolder;
+  font-family: "Redaction 35", serif;
+}
+nav ul{
+  display: flex;
+  gap: 17px;
+}
+
+nav ul li{
+  list-style-type: none;
+  font-size:20px;
+}
+.hero{
+
+  background-image: linear-gradient(to right, aqua, rgb(91, 94, 108)); 
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+}
+.hero-left .one{
+  font-size:60px;
+  color: rgb(6, 6, 6);
+  font-weight: bolder;
+}
+.herlo-left .tw0{
+  font-size: 40px;
+}
+.bold{
+  font-weight: bold;
+}
+.hero-right img{
+  border-radius: 14px;
+}
+.button-container{
+  padding: 9px 0;
+}
+.btn{
+  background-image: linear-gradient(to right, rgb(95,95,95), rgb(18,178, 192));
+  color: aliceblue;
+  padding: 7px 9px;
+  margin: 0 2px;
+  border: 2px solid burlywood;
+  border-radius: 9px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight:bolder;
+}
