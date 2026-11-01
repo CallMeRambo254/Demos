@@ -1,56 +1,66 @@
-*{
-  margin:0;
+* {
+  margin: 0;
   padding: 0;
 }
-nav{
+
+nav {
   display: flex;
   justify-content: space-around;
-  background-image:linear-gradient( to right, rgb(76,8,128), black);
-  color:white;
+  background-image: linear-gradient(to right, rgb(76, 8, 128), black);
+  color: white;
   padding: 18px 0;
 }
-.logo{
-  font-size:22px;
-  font-weight:bolder;
+
+.logo {
+  font-size: 22px;
+  font-weight: bolder;
   font-family: "Redaction 35", serif;
 }
-nav ul{
+
+nav ul {
   display: flex;
   gap: 17px;
 }
 
-nav ul li{
+nav ul li {
   list-style-type: none;
-  font-size:20px;
+  font-size: 20px;
 }
-.hero{
 
-  background-image: linear-gradient(to right, aqua, rgb(91, 94, 108)); 
+.hero {
+
+  background-image: linear-gradient(to right, aqua, rgb(91, 94, 108));
   height: 65vh;
   display: flex;
   justify-content: center;
   gap: 30px;
   align-items: center;
 }
-.hero-left .one{
-  font-size:60px;
+
+.hero-left .one {
+  font-size: 60px;
   color: rgb(6, 6, 6);
   font-weight: bolder;
 }
-.herlo-left .tw0{
+
+.herlo-left .tw0 {
   font-size: 40px;
 }
-.bold{
+
+.bold {
   font-weight: bold;
 }
-.hero-right img{
+
+.hero-right img {
   border-radius: 14px;
 }
-.button-container{
+
+.button-container {
   padding: 9px 0;
 }
-.btn{
-  background-image: linear-gradient(to right, rgb(95,95,95), rgb(18,178, 192));
+
+.btn {
+  background-image: linear-gradient(to right, rgb(95, 95, 95), rgb(18, 178, 192));
   color: aliceblue;
   padding: 7px 9px;
   margin: 0 2px;
@@ -58,5 +68,48 @@ nav ul li{
   border-radius: 9px;
   cursor: pointer;
   font-size: 18px;
-  font-weight:bolder;
+  font-weight: bolder;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  font-family: "Redaction 35", serif;
+  font-size: 20px;
+  border-top: 2px solid black;
+  padding: 22px 0;
+  background-image: linear-gradient(to right, rgb(191, 191, 239), rgb(173, 233, 194));
+
+}
+
+.project-image img {
+  width: 49.5vw;
+  padding: 69px 12px;;
+  border-radius: 424px;
+}
+
+.project-info {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to right, #868686, #1f2f4a);
+  padding: 42px;
+}
+
+.project-info .text {
+  font-size: 20px;
+  padding: 10px 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+.project-info .p {
+  padding: 12px 0;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
 }
